@@ -1,0 +1,42 @@
+body {
+  background-image: url(./assets/Jonas.gif);
+}
+
+#roller {
+  margin: auto;
+  padding: 8px;
+  position: relative;
+  text-align: center;
+  background-color: white;
+  border: solid 2px #eeeeee;
+  width: 60%;
+  overflow: hidden;
+}
+
+img {
+  width: 90%;
+}
+video {
+  width: 80%;
+}
+canvas {
+  margin: auto;
+  position: relative;
+  /* text-align: center; */
+  background-color: white;
+  border: solid 2px #eeeeee;
+}
+/* #img {
+  position: absolute;
+  top: 100px;
+  left: 1000px;
+  height: 250px;
+  animation-name: move;
+  animation-timing-function: linear;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes move {
+    from {left: 1500px;}
+    to {left: -500px;}
+} */
